@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PELISMELIO | REGISTRO</title>
+
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="star_burst.mp4" type="video/mp4">
+    </video>
+    <h1>PELISMELIO</h1>
+    <br><br><br>
+    <div class="login-container">
+        <h2>REGISTRO</h1>
+            <form>
+                <input type="text" placeholder="Usuario" required>
+                <input type="text" placeholder="Nombre" required>
+                <input type="date" placeholder="dd/mm/aaaa">
+                <input type="email" placeholder="Correo Electrónico">
+                <div class="password-container">
+                    <input class="ejemplo" type="password" placeholder="Contraseña" id="password" required>
+                    <img src="ojocerrado.png" alt="." id="togglePassword">
+                </div>
+                <div class="password-container">
+                    <input class="ejemplo" type="password" placeholder="Repite la Contraseña" id="password" required>
+                    <img src="ojocerrado.png" alt="." id="togglePassword">
+                </div>
+                <div class="checkbox-container">
+                    <input id ="ck" type="checkbox">
+                    <p>Deseo recibir información sobre novedades y ofertas</p>
+                  </div>
+                  <div class="checkbox-container">
+                    <input id="ck" type="checkbox" required>
+                    <p>Declaro haber leído y acepto las condiciones generales</p>
+                  </div>
+
+                <button type="submit">Enviar</button><br>
+            
+            </form>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
